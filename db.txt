@@ -1,0 +1,1 @@
+ALTER TABLE `employees`  ADD `employee_gsis` VARCHAR(50) NOT NULL AFTER `employee_sss`

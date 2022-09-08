@@ -1,0 +1,10 @@
+[03-Jul-2019 16:23:57 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in D:\UwAmp310\www\dtrsystem\globalf.php:36
+Stack trace:
+#0 D:\UwAmp310\www\dtrsystem\departments-ajax.php(96): pageNav->row_page('SELECT count(*)...')
+#1 {main}
+  thrown in D:\UwAmp310\www\dtrsystem\globalf.php on line 36
+[03-Jul-2019 16:23:59 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in D:\UwAmp310\www\dtrsystem\globalf.php:36
+Stack trace:
+#0 D:\UwAmp310\www\dtrsystem\departments-ajax.php(96): pageNav->row_page('SELECT count(*)...')
+#1 {main}
+  thrown in D:\UwAmp310\www\dtrsystem\globalf.php on line 36
