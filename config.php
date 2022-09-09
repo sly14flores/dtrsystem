@@ -7,7 +7,8 @@ $dec = new endec();
 /* Database Configuration */
 $DB_HOST = "localhost";
 $DB_USER = "root";
-$DB_PWD	 = $dec->dec("zX5t4m0kXMSrAtUJ4ubzoNVZrWCG9dBpJhxvAUa8bKU=");
+// $DB_PWD	 = $dec->dec("zX5t4m0kXMSrAtUJ4ubzoNVZrWCG9dBpJhxvAUa8bKU=");
+$DB_PWD	 = "";
 $DB_FILE = $dec->dec("ydsFR+oyub9Ivyp/YjpB45jLrzD86wZDTRRZyjrN3C4=");
 $DB_PORT = 3306;
 
