@@ -47,9 +47,9 @@ while (! feof($file)) {
 $mc = $c - 1;
 
 for ($i=0; $i<$mc; $i++) {
-	$dmid[$i] = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $line_txt[$i][1]);
-	$dfid[$i] = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $line_txt[$i][2]);
-	$dlog[$i] = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $line_txt[$i][9]);
+	$dmid[$i] = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $line_txt[$i][2]);
+	$dfid[$i] = trim(preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $line_txt[$i][0]));
+	$dlog[$i] = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $line_txt[$i][1]);
 	$dtlog[$i] = substr($dlog[$i],0,strlen($dlog[$i]) - 3) . ":00";
 }
 

@@ -287,6 +287,8 @@ $('#recent-dtr').change(function() {
 
 $('#dtr-file').change(function() {
 
+$('#frmUploadDTR button').prop('disabled',true);
+
 var $bar = $('.upload-progress');
 $bar.width(0);
 $bar.text(0 + '%');
@@ -299,10 +301,12 @@ if (is_chrome) {
 	df = df.substr(12);
 }
 
-if (df == 'AGL_0001.TXT') {
+const sdf = df.split('.');
 
-	$('#dtr-alert').addClass('tog-alert');	
-	
+if (sdf[1] && sdf[1]==='dat') {
+
+	$('#dtr-alert').addClass('tog-alert');
+
 	$('#frmUploadDTR').submit();
 	
 	document.getElementById('upload_target').onload = function() {	

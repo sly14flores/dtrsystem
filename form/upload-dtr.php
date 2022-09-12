@@ -8,7 +8,7 @@
 		0%
 	  </div>
 	</div>
-	<div id="dtr-alert" class="alert alert-warning">Please select <strong>AGL_0001.TXT</strong> file.</div>
+	<div id="dtr-alert" class="alert alert-warning">Please select <strong>dat file</strong> file.</div>
 	<div class="form-group">
 	<label for="dtr-month">Month</label>
 		<select id="dtr-month" class="form-control">
